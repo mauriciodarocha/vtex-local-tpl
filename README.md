@@ -18,11 +18,11 @@ Você precisa copiar o HTML, e utilizá-lo e depois descartá-lo no documento fi
 Baixe os arquivos em um zip ou pelo git, e copie o folder VtexLocalTpl para o folder "Packages/" do Sublime Text 3.
 
 ## Uso
-Monte o HTML com os controles (tags) da Vtex normalmente, mas comente-os e coloque HTMLs (mockups) entre **<!-- delete -->** e **<!-- delete:end -->**. Assim é possível a remoção dos mockups ou html temporário rapidamente.
+Monte o HTML com os controles (tags) da Vtex normalmente, mas comente-os e coloque HTMLs (mockups) entre `<!-- delete -->` e `<!-- delete:end -->`. Assim é possível a remoção dos mockups ou html temporário rapidamente.
 
 
 ### Clean HTML
-O comando "Clean HTML" limpa tudo que fica entre **<!-- delete -->** e **<!-- delete:end -->**. Não intercale estes comentários. O plugin irá buscar exatamente por um **<!-- delete -->** até encontrar o próximo **<!-- delete:end -->**.
+O comando "Clean HTML" limpa tudo que fica entre `<!-- delete -->` e `<!-- delete:end -->`. Não intercale estes comentários. O plugin irá buscar exatamente por um `<!-- delete -->` até encontrar o próximo `<!-- delete:end -->`.
 
 Exemplo de html com mockups para a montagem da página:
 
