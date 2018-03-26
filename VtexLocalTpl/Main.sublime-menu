@@ -1,0 +1,15 @@
+[
+	
+	{
+		"id": "VtexClean",
+    	"caption": "Vtex",
+    	"children":
+    		[
+				{ "caption": "Clean HTML", "command": "clean_file" },
+				{ "caption": "Uncomment Vtex Tags", "command": "uncomment_vtex_tags" },
+				{ "caption": "Swap URL", "command": "swap" },
+				{ "caption": "-" },
+				{ "caption": "Full Clean Up", "command": "full_clean_up" },
+			]
+	}	
+]
