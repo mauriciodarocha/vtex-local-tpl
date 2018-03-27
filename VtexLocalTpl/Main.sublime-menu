@@ -2,7 +2,7 @@
 	
 	{
 		"id": "VtexLocalTpl",
-    	"caption": "Vtex",
+    	"caption": "VtexLocalTpl",
     	"children":
     		[
 				{ "caption": "Clean HTML", "command": "clean_file" },
